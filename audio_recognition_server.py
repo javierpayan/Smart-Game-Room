@@ -1,3 +1,4 @@
+#Este programa se encarga de reconocer el audio para luego enviarselo a la raspberry pi
 import speech_recognition as sr
 import socket  
 import time     
