@@ -1,10 +1,13 @@
+#Este programa se encarga de recibir los datos del servidor para que controle
+#el apagado o prendido del televisor por otra parte tambien el sensor de movimiento
+#hace su funcion cuando se detecta apaga el televisor
 import RPi.GPIO as GPIO
 import socket
 import time
 from datetime import datetime
 import cec
 import threading
-host = "192.168.1.66"
+host = "192.168.1.66" #ip server
 port = 5000 
 cec.init()
 command = ''
