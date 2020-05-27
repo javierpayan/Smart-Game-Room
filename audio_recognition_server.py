@@ -3,7 +3,7 @@ import speech_recognition as sr
 import socket  
 import time     
 
-host = "192.168.1.66"
+host = "192.168.1.66" #ip server
 port = 5000 
 
 conn = None
